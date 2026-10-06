@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Flash sale notification, folded up: gradient strip with the title and details (drawn as a picture so they
+     can use the Novacane fonts), and the sigil on the right -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/notification_card_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="14dp"
+    android:paddingTop="4dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="4dp">
+
+    <!-- Title and details, drawn in code (NovaNotifications.kt); shrinks to fit if the screen is narrow -->
+    <ImageView
+        android:id="@+id/notif_strip"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart" />
+
+    <!-- The sigil -->
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@null"
+        android:src="@drawable/novacane_logo" />
+</LinearLayout>

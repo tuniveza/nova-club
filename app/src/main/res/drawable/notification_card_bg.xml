@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Novacane gradient behind the custom notification: magenta, through purple, to indigo (like the membership card) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="0"
+        android:startColor="#FF9C1757"
+        android:centerColor="#FF5E1B82"
+        android:endColor="#FF25194D" />
+    <corners android:radius="12dp" />
+</shape>

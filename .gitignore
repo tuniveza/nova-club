@@ -1,0 +1,35 @@
+# Gradle / Kotlin / build output
+.gradle/
+.kotlin/
+build/
+/app/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Local machine settings (SDK path)
+local.properties
+
+# Signing: keystores and their passwords are never committed
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
+
+# Firebase / Google config (contains API keys); add your own locally
+google-services.json
+
+# Android Studio: keep only the shared code style
+*.iml
+.idea/*
+!.idea/codeStyles/
+.DS_Store
+
+# Archives and app packages
+*.zip
+*.apk
+*.aab
+
+# Logs
+*.log
